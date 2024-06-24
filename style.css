@@ -1,0 +1,75 @@
+.my-style {
+  background-color:#EEF7FF;//class selector
+  color:#151515;
+  border:3px dotted #000;
+  line-height: 100px;
+  letter-spacing: 10px;
+  text-align: left;
+  font-family:fantasy;
+  font-weight:bold;
+}
+.varun-style {
+  background-color: #FFF9D0;
+  color: #151515;//text color
+}
+#varun-id {     //id selector
+  background-color:#344C64;
+  color:#151515;
+}
+p { //element selector
+  background-color: #CDE8E5;
+  color: #000;//default black code
+}
+.varun-paragraph {
+  background-color: #4D869C;
+  color: 000;
+  border:5px solid#000;
+  line-height: normal;
+  letter-spacing:normal;
+  text-align: left;
+  font-family:serif;
+  font-weight: lighter;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.Kavitha {
+  background-color: #EEF7FF;
+  color:#000;
+  padding-left: 600px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+.parent {
+  background-color: #7469B6;
+  width:100%;
+  height:100px;
+  margin:2px;
+}
+.child {
+  display: inline-block;
+  background-color: #524C42;
+  width:100px;
+  height:100px;
+  margin:2px;
+}
+.father {
+  position: relative;
+  background-color: #A87676;
+  width: 200px;
+  height: 200px
+}
+.son {
+  position: absolute;
+  background-color: #000;
+  width:100px;
+  height:100px;
+  bottom:0;
+  right: 25%;
+}
